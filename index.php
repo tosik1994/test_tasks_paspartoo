@@ -53,10 +53,6 @@ function sortDeliveryMethods($deliveryMethodsArray)
 echo myArrowFunc(9);
 
 echo '<pre>';
-print_r($deliveryMethodsArray);
-echo '</pre>';
-
-echo '<pre>';
 print_r(sortDeliveryMethods($deliveryMethodsArray));
 echo '</pre>';
 
